@@ -1,6 +1,6 @@
-# fullsend.cc
+# komquest.cc
 
-**fullsend.cc** is a web application for cyclists and runners who want to identify and target Strava segments intelligently. The app helps users discover nearby segments, assess their difficulty for achieving a KOM, top 10, or Local Legend status, and plan the best time to make an attempt based on wind conditions.
+**komquest.cc** is a web application for cyclists and runners who want to identify and target Strava segments intelligently. The app helps users discover nearby segments, assess their difficulty for achieving a KOM, top 10, or Local Legend status, and plan the best time to make an attempt based on wind conditions.
 
 ## Features
 
