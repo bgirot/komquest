@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --dark-color: #1A1A1A;
+    --grey-color: rgb(126, 126, 114);
+    --lightgrey-color: rgba(126, 126, 114, 0.33);
+    --primary-color: #FC4C02;
+    --secondary-color: #FEB79A;
+    --light-color: #FFFFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Inter", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}

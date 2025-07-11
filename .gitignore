@@ -48,7 +48,6 @@ secrets.yml
 *.DS_Store
 *.AppleDouble
 *.LSOverride
-Icon?
 ehthumbs.db
 Thumbs.db
 Desktop.ini
