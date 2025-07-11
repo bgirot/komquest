@@ -2,6 +2,7 @@
   "name": "komquest",
   "version": "1.0.1",
   "scripts": {
+    "prebuild": "rm -rf dist/frontend",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --configuration production",
