@@ -2,30 +2,25 @@
   "name": "komquest",
   "version": "1.0.2",
   "scripts": {
-    "prebuild": "rm -rf dist/frontend",
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build --configuration production",
-    "test": "ng test"
+    "prebuild": "rm -rf frontend/dist",
+    "ng": "cd frontend && ng",
+    "start": "cd frontend && ng serve",
+    "build": "cd frontend && ng build --configuration production",
+    "watch": "cd frontend && ng build --watch --configuration development",
+    "test": "cd frontend && ng test",
+    "install:frontend": "cd frontend && npm install",
+    "install:backend": "cd backend && mvn clean install",
+    "install:all": "npm run install:frontend && npm run install:backend",
+    "dev": "cd frontend && ng serve",
+    "build:prod": "cd frontend && ng build --configuration production",
+    "lint": "cd frontend && ng lint"
   },
   "private": true,
-  "dependencies": {
-    "@angular/animations": "^20.0.0",
-    "@angular/common": "^20.0.0",
-    "@angular/compiler": "^20.0.0",
-    "@angular/core": "^20.0.0",
-    "@angular/forms": "^20.0.0",
-    "@angular/platform-browser": "^20.0.0",
-    "@angular/platform-browser-dynamic": "^20.0.0",
-    "@angular/router": "^20.0.0",
-    "rxjs": "^7.8.0",
-    "tslib": "^2.6.0",
-    "zone.js": "^0.15.1"
-  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
   "devDependencies": {
-    "@angular-devkit/build-angular": "^20.0.0",
-    "@angular/cli": "^20.0.0",
-    "@angular/compiler-cli": "^20.0.0",
-    "typescript": "~5.8.0"
+    "concurrently": "^7.6.0"
   }
 }
