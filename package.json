@@ -2,25 +2,18 @@
   "name": "komquest",
   "version": "1.0.2",
   "scripts": {
-    "prebuild": "if exist frontend\\dist rmdir /s /q frontend\\dist",
+    "prebuild": "rm -rf frontend/dist",
     "ng": "cd frontend && ng",
     "start": "cd frontend && ng serve",
-    "build": "cd frontend && npm ci && npm run build",
+    "build": "cd frontend && npm install && ng build --configuration production",
     "watch": "cd frontend && ng build --watch --configuration development",
     "test": "cd frontend && ng test",
     "install:frontend": "cd frontend && npm install",
     "install:backend": "cd backend && mvn clean install",
     "install:all": "npm run install:frontend && npm run install:backend",
-    "dev": "cd frontend && npm run start",
+    "dev": "cd frontend && ng serve",
     "build:prod": "cd frontend && ng build --configuration production",
     "lint": "cd frontend && ng lint"
   },
-  "private": true,
-  "workspaces": [
-    "frontend",
-    "backend"
-  ],
-  "devDependencies": {
-    "concurrently": "^7.6.0"
-  }
+  "private": true
 }
