@@ -11,11 +11,14 @@ export class Footer {
     contactTitle = APP_CONSTANTS.footerContactTitle;
     contactGitHub = APP_CONSTANTS.footerContactGithub;
     contactLinkedIn = APP_CONSTANTS.footerContactLinkedIn;
-    ContactEmail = APP_CONSTANTS.footerContactEmail;
+    contactEmail = APP_CONSTANTS.footerContactEmail;
+    gitHubUrl = APP_CONSTANTS.gitHubUrl;
+    linkedInUrl = APP_CONSTANTS.linkedInUrl;
+    email = APP_CONSTANTS.email;
 
-    LanguagesTitle = APP_CONSTANTS.footerLanguagesTitle;
-    LanguagesFrench = APP_CONSTANTS.footerLanguagesFrench;
-    LanguagesEnglish = APP_CONSTANTS.footerLanguagesEnglish;
+    languagesTitle = APP_CONSTANTS.footerLanguagesTitle;
+    languagesFrench = APP_CONSTANTS.footerLanguagesFrench;
+    languagesEnglish = APP_CONSTANTS.footerLanguagesEnglish;
 
     confidentialityTitle = APP_CONSTANTS.footerConfidentialityTitle;
     confidentialityPolicy = APP_CONSTANTS.footerConfidentialityPolicy;

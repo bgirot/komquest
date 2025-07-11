@@ -6,6 +6,7 @@ export const APP_CONSTANTS = {
 
     gitHubUrl: 'https://github.com/bgirot/komquest',
     linkedInUrl: 'https://www.linkedin.com/in/balthazar-girot/',
+    email: 'binne.poub@gmail.com',
 
     // Footer
     footerContactTitle: 'Contact',
