@@ -1,9 +1,9 @@
 {
   "name": "komquest",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve", 
     "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
