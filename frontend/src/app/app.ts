@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Footer } from './shared/components/footer/footer';
-import { Header } from './shared/components/header/header';
+import { Footer } from './components/footer/footer';
+import { Header } from './components/header/header';
+import { Wip } from './components/wip/wip';
 
 @Component({
   selector: 'app-root',
-  imports: [Footer, Header],
+  imports: [Footer, Header, Wip],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
