@@ -1,4 +1,19 @@
-<a class="default-btn" [href]="href" target="_blank">
-    <img [src]="icon" alt="">
+@if (routerLink?.length) {
+  <a class="default-btn"
+     [routerLink]="routerLink"
+     [target]="target">
+    @if (icon) {
+      <img [src]="icon" alt="" />
+    }
     <span class="btn-text">{{ text }}</span>
-</a>
+  </a>
+} @else if (href) {
+  <a class="default-btn"
+     [href]="href"
+     [target]="target">
+    @if (icon) {
+      <img [src]="icon" alt="" />
+    }
+    <span class="btn-text">{{ text }}</span>
+  </a>
+}

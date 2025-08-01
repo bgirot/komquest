@@ -25,7 +25,8 @@
 
   "wip": {
     "description": "Coming soon... a web app for cyclists and runners to discover nearby Strava segments, assess their difficulty, and plan optimal attempts based on wind and ranking potential.",
-    "github_button": "GitHub"
+    "github_button": "GitHub",
+    "about_button": "About"
   },
 
   "about": {

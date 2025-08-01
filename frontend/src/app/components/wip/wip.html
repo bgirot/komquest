@@ -1,8 +1,19 @@
 <div class="wip-section">
     <img class="hero-logo" src="assets/images/hero-logo.svg" alt="">
     <p>{{ 'wip.description' | translate }}</p>
-    <a class="btn" href="https://github.com/bgirot/komquest" target="_blank">
-        <img src="assets/icons/github-icon.svg" alt="">
-        <span class="btn-text">{{ 'wip.github_button' | translate }}</span>
-    </a>
+    <div class="btns">
+        <app-default-btn
+            [text]="'wip.github_button' | translate"
+            [href]="'https://github.com/bgirot/komquest'"
+            [target]="'_blank'"
+            [icon]="'assets/icons/github-icon.svg'"
+        ></app-default-btn>
+
+        <app-default-btn
+            [text]="'wip.about_button' | translate"
+            [icon]="'assets/icons/about.svg'"
+            [routerLink]="['/about']"
+        ></app-default-btn>
+    </div>
+
 </div>
