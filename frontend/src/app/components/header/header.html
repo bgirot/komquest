@@ -1,5 +1,11 @@
 <header>
+    <div class="ghost-elem"></div>
+    
     <h1>
-        <a href="">{{ siteTitle }}</a>
+        <a href="">{{ 'site.title' | translate }}</a>        
     </h1>
+
+    <button (click)="switchLanguage()" href="">
+            <img src="assets/icons/{{getCurrentLanguage()}}.png" alt="{{getCurrentLanguage()}} flag">
+        </button>
 </header>

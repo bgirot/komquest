@@ -1,45 +1,49 @@
 <footer>
     <div class="footer-category">
         <p class="footer-category-title">
-            {{ contactTitle }}
+            {{ 'contact.title' | translate }}
         </p>
         <ul class="footer-category-list">
             <li>
-                <a target="_blank" href="{{ gitHubUrl }}">{{ contactGitHub }}</a>
+                <a target="_blank" href="https://github.com/bgirot/komquest">{{ 'contact.github' | translate }}</a>
             </li>
             <li>
-                <a target="_blank" href="{{ linkedInUrl }}">{{ contactLinkedIn }}</a>
+                <a target="_blank" href="https://www.linkedin.com/in/balthazar-girot/">{{ 'contact.linkedin' | translate }}</a>
             </li>
             <li>
-                <a href="mailto:{{ email }}">{{ contactEmail }}</a>
+                <a href="mailto:binne.poub@gmail.com">{{ 'contact.email' | translate }}</a>
             </li>
         </ul>
     </div>
 
     <div class="footer-category">
         <p class="footer-category-title">
-            {{ languagesTitle }}
+            {{ 'languages.title' | translate }}
         </p>
         <ul class="footer-category-list">
             <li>
-                <a href="">{{ languagesFrench }}</a>
+                <a (click)="setLanguage('fr')" [class.active]="getCurrentLanguage() === 'fr'">
+                    {{ 'languages.french' | translate }}
+                </a>
             </li>
             <li>
-                <a href="">{{ languagesEnglish }}</a>
+                <a (click)="setLanguage('en')" [class.active]="getCurrentLanguage() === 'en'">
+                    {{ 'languages.english' | translate }}
+                </a>
             </li>
         </ul>
     </div>
 
     <div class="footer-category">
         <p class="footer-category-title">
-            {{ confidentialityTitle }}
+            {{ 'confidentiality.title' | translate }}
         </p>
         <ul class="footer-category-list">
             <li>
-                <a href="">{{ confidentialityPolicy }}</a>
+                <a href="">{{ 'confidentiality.policy' | translate }}</a>
             </li>
             <li>
-                <a href="">{{ confidentialityLegals }}</a>
+                <a href="">{{ 'confidentiality.legals' | translate }}</a>
             </li>
         </ul>
     </div>

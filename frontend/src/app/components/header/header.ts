@@ -1,14 +1,21 @@
 import { Component } from '@angular/core';
-import { APP_CONSTANTS } from '../../constants/constants';
+import { TranslateModule } from '@ngx-translate/core';
+import { LanguageService } from '../../services/language.service';
 
 @Component({
   selector: 'app-header',
-  imports: [],
+  imports: [TranslateModule],
   templateUrl: './header.html',
   styleUrl: './header.scss'
 })
 export class Header {
-  gitHubUrl = APP_CONSTANTS.gitHubUrl;
-  siteTitle = APP_CONSTANTS.siteTitle;
+  constructor(private languageService: LanguageService) {}
 
+  switchLanguage(): void {
+    this.languageService.switchLanguage();
+  }
+
+  getCurrentLanguage(): string {
+    return this.languageService.getCurrentLanguage();
+  }
 }

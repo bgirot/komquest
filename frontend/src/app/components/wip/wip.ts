@@ -1,13 +1,10 @@
 import { Component } from '@angular/core';
-import { APP_CONSTANTS } from '../../constants/constants';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
     selector: 'app-wip',
-    imports: [],
+    imports: [TranslateModule],
     templateUrl: './wip.html',
     styleUrl: './wip.scss'
 })
-
-export class Wip {
-    gitHubUrl = APP_CONSTANTS.gitHubUrl;
-}
+export class Wip {}
