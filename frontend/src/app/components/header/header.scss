@@ -1,7 +1,38 @@
 header{
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 2rem;
     color: var(--dark-color);
+
+    .ghost-elem {
+        width: 2rem;
+        height: 2rem;
+        background-color: red;
+        visibility: hidden;
+    }
+
+
+    button{
+        background: none;
+        border: none;
+        cursor: pointer;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 2rem;
+
+        transition: all ease 0.33s;
+
+        img {
+            height: 100%;
+        }
+
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
 }

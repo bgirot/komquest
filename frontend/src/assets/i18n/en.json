@@ -1,0 +1,30 @@
+{
+  "site": {
+    "title": "komquest.cc",
+    "name": "komquest"
+  },
+
+  "contact": {
+    "title": "Contact",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "Email"
+  },
+
+  "languages": {
+    "title": "Languages",
+    "french": "Français",
+    "english": "English"
+  },
+
+  "confidentiality": {
+    "title": "Confidentiality",
+    "policy": "Privacy Policy",
+    "legals": "Legal information"
+  },
+
+  "wip": {
+    "description": "Coming soon... a web app for cyclists and runners to discover nearby Strava segments, assess their difficulty, and plan optimal attempts based on wind and ranking potential.",
+    "github_button": "GitHub"
+  }
+}
