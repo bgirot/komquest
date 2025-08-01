@@ -26,5 +26,21 @@
   "wip": {
     "description": "Prochainement... une application web pour cyclistes et coureurs pour découvrir les segments Strava à proximité, évaluer leur difficulté et planifier les tentatives optimales selon le vent et le potentiel de classement.",
     "github_button": "GitHub"
+  },
+
+  "about": {
+    "title": "À propos",
+    "subtitle1": "Le projet",
+    "description11": "Le projet komquest est né d'une passion pour le cyclisme et la course à pied mêlée à une envie de créer un outil utile. Il s'agit d'une application web qui permet aux sportifs de découvrir les segments Strava alentours en évaluant leur difficulté pour viser un KOM/QOM, un top 10 ou le statut de Local Legend.",
+    "description12": "L’objectif est de rendre l’exploration de segments stratégique et motivante pour les vrais chasseurs de KOMs. Ainsi, les fonctionnalités en cours de développement sont :",
+    "features": {
+      "feature1": "Découverte de segments Strava à proximité",
+      "feature2": "Analyse des classements pour évaluer la difficulté et l'accessibilité des segments",
+      "feature3": "Intégration des conditions météorologiques pour optimiser les tentatives",
+      "feature4": "Système de favoris et de planification des tentatives",
+      "feature5": "Carte interactive pour visualiser les segments et les conditions"
+    },
+    "subtitle2": "À propos de moi",
+    "description2": "Je m’appelle Balthazar, étudiant en école d’ingénieurs en informatique. J’ai souvent cherché une idée de projet personnel à développer mais il m’a toujours manqué l’envie et la motivation de me lancer. Étant passionné de course à pied et de vélo depuis plusieurs années et également utilisateur de Strava, j’ai décidé de mettre en commun ces centres d’intérêts pour développer komquest."
   }
 }
