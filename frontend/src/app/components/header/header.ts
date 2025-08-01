@@ -15,6 +15,10 @@ export class Header {
     this.languageService.switchLanguage();
   }
 
+  getOtherLanguage(): string {
+    return this.languageService.getOtherLanguage();
+  }
+
   getCurrentLanguage(): string {
     return this.languageService.getCurrentLanguage();
   }

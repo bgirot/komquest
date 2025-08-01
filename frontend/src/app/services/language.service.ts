@@ -43,6 +43,10 @@ export class LanguageService {
     return this.translate.currentLang || this.DEFAULT_LANGUAGE;
   }
 
+  getOtherLanguage(): string {
+    return this.getCurrentLanguage() === 'fr' ? 'en' : 'fr';
+  }
+
   getAvailableLanguages(): string[] {
     return [...this.AVAILABLE_LANGUAGES];
   }
