@@ -1,8 +1,10 @@
 main {
     min-height: 85vh;
-    padding: 3em 20%;
+    padding: 3rem 20% 5rem 20%;
+
+    margin-top: 6rem;
 
     @media screen and (max-width: 768px) {
-        padding: 2em 10%;
+        padding: 2rem 10% 8rem 10%;
     }
 }

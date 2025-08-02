@@ -6,6 +6,19 @@ header{
     padding: 2rem;
     color: var(--dark-color);
 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+    transition: transform ease 0.33s;
+    transform: translateY(0);
+
+    &.header-hidden {
+        transform: translateY(-100%)
+    }
+
     .ghost-elem {
         width: 2rem;
         height: 2rem;
