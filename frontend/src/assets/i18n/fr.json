@@ -57,5 +57,10 @@
     "description31": "L’ensemble des éléments du site komquest.cc, y compris les textes, images, logos et autres contenus, sont protégés par le droit d’auteur et restent la propriété exclusive de leur auteur",
     "subtitle4": "Responsabilité",
     "description41": "L'éditeur ne saurait être tenu responsable des éventuels dommages directs ou indirects résultant de l'utilisation du site komquest.cc. Les informations fournies sur le site sont à titre indicatif et ne sauraient engager la responsabilité de l'éditeur."
+  },
+
+  "privacy" : {
+    "title": "Politique de confidentialité",
+    "description": "Politique de confidentialité en cours de rédaction. Pour l'instant, aucune donnée personnelle n'est collectée par l'application komquest.cc. Aucune donnée n'est stockée ou traitée."
   }
 }
