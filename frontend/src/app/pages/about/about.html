@@ -1,15 +1,24 @@
 <div class="content">
     <h2>{{ 'about.title' | translate }} </h2>
 
-    <h3>{{ 'about.subtitle1' | translate }}</h3>
-    <p>{{ 'about.description11' | translate }}</p>
-    <p>{{ 'about.description12' | translate }}</p>
-    <ul class="features-list">
-        <li *ngFor="let featureKey of features">
-            {{ getFeatureTranslation(featureKey) }}
-        </li>
-    </ul>
+    <div class="title-and-p-container">
+        <h3>{{ 'about.subtitle1' | translate }}</h3>
+        <p>{{ 'about.description11' | translate }}</p>
+        <p>{{ 'about.description12' | translate }}</p>
+        <ul class="features-list">
+            <li *ngFor="let featureKey of features">
+                {{ getFeatureTranslation(featureKey) }}
+            </li>
+        </ul>
+    </div>
 
-    <h3>{{ 'about.subtitle2' | translate }}</h3>
-    <p>{{ 'about.description2' | translate }}</p>
+    <div class="title-and-p-container">
+        <h3>{{ 'about.subtitle2' | translate }}</h3>
+        <div class="me-container">
+            <p>{{ 'about.description2' | translate }}</p>
+            <img src="assets/images/pp.png" alt="Me, Balthazar, the developer">
+        </div>
+    </div>
+
+    
 </div>
