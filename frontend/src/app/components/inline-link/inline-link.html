@@ -1,0 +1,14 @@
+@if (routerLink?.length) {
+    <a class="inline-link"
+        [routerLink]="routerLink"
+        [href]="text"
+        [target]="target">
+    <span class="link-text">{{ text }}</span>
+    </a>
+} @else if (href) {
+    <a class="inline-link"
+        [href]="text"
+        [target]="target">
+    <span class="link-text">{{ text }}</span>
+    </a>
+}

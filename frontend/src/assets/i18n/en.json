@@ -43,5 +43,19 @@
     },
     "subtitle2": "About me",
     "description2": "My name is Balthazar, a computer engineering student. I've often looked for a personal project idea to develop but always lacked the desire and motivation to get started. Being passionate about running and cycling for several years and also a Strava user, I decided to combine these interests to develop komquest."
+  },
+
+  "legals": {
+    "title": "Legal information",
+    "subtitle1": "Site publisher",
+    "description11": "The site komquest.cc is published personally by Balthazar Girot",
+    "subtitle2": "Hosting",
+    "description21": "The site is hosted by Cloudflare, Inc.",
+    "description22": "101 Townsend St, San Francisco, CA 94107, USA",
+    "cloudflare-link": "https://www.cloudflare.com",
+    "subtitle3": "Intellectual property",
+    "description31": "All elements of the komquest.cc site, including texts, images, logos, and other content, are protected by copyright and remain the exclusive property of their author.",
+    "subtitle4": "Responsibility",
+    "description41": "The publisher cannot be held responsible for any direct or indirect damages resulting from the use of the komquest.cc site. The information provided on the site is for informational purposes only and does not engage the responsibility of the publisher."
   }
 }

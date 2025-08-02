@@ -1,0 +1,11 @@
+a {
+    display: inline-block;
+    color: inherit;
+    font-size: inherit;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
