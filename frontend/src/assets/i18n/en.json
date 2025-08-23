@@ -43,7 +43,9 @@
       "feature5": "Interactive map to visualize segments and conditions"
     },
     "subtitle2": "About me",
-    "description2": "My name is Balthazar, a computer engineering student. I've often looked for a personal project idea to develop but always lacked the desire and motivation to get started. Being passionate about running and cycling for several years and also a Strava user, I decided to combine these interests to develop komquest."
+    "description2": "My name is Balthazar, a computer engineering student. I've often looked for a personal project idea to develop but always lacked the desire and motivation to get started. Being passionate about running and cycling for several years and also a Strava user, I decided to combine these interests to develop komquest.",
+    "subtitle3": "Technical details",
+    "description3": "The segment difficulty ranking is based on Strava's public data, analyzing athletes' times and powers, segment length, elevation gain, and profile. The algorithm assigns each performance in a segment's top 10 a score out of 100. The higher the score, the more difficult the required performance is to achieve. The goal is to suggest segments based on user requests. If the user wants to easily enter a top 10 or take a KOM without too much effort, the app will suggest segments with lower scores. Conversely, for athletes seeking a greater challenge, segments with higher scores will be suggested."
   },
 
   "legals": {
