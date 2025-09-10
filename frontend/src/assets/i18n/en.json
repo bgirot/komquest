@@ -27,7 +27,8 @@
   "wip": {
     "description": "Coming soon... a web app for cyclists and runners to discover nearby Strava segments, assess their difficulty, and plan optimal attempts based on wind and ranking potential.",
     "github_button": "GitHub",
-    "about_button": "About"
+    "about_button": "About",
+    "develop_button": "Development"
   },
 
   "about": {
@@ -65,5 +66,12 @@
   "privacy": {
     "title": "Privacy Policy",
     "description": "Privacy policy is under development. Currently, no personal data is collected by the komquest.cc application. No data is stored or processed."
+  },
+
+  "develop": {
+    "title": "Development",
+    "get-user": "User",
+    "get-segments": "Segments",
+    "request-result": "Request result"
   }
 }

@@ -22,3 +22,39 @@ a{
     color: inherit;
     cursor: pointer;
 }
+
+
+// Todo : transform all these into components
+.icon-link-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 2rem;
+        height: 2rem;
+        transition: color 0.3s;
+
+        &:hover {
+            color: var(--primary-color);
+        }
+    }
+}
+
+.small-btn {
+    background: var(--primary-color);
+    border: none;
+    border-radius: 0.5rem;
+    color: var(--light-color);
+    cursor: pointer;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+
+    &:hover {
+        background: var(--secondary-color);
+    }
+}

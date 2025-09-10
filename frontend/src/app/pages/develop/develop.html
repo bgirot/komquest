@@ -1,0 +1,24 @@
+<div class="content">
+    <h2>{{ 'develop.title' | translate }} </h2>
+
+
+    <div class="container">
+        <div class="info-container">
+            <div class="input-container">
+                <input id="input-token"type="text" placeholder="Token">
+                <a href="https://www.strava.com/settings/api" class="icon-link-btn" target="_blank">
+                    <img src="assets/icons/external-link.svg" title="Strava API Tokens" alt="Link icon">
+                </a>
+            </div>
+            <div class="buttons-container">
+                <button class="small-btn" (click)="getUser()">{{ 'develop.get-user' | translate }}</button>
+                <button class="small-btn" (click)="getNearbySegments()">{{ 'develop.get-segments' | translate }}</button>
+            </div>
+        </div>
+        
+        <div class="result-container">
+            <img id="profile-picture" src="" alt="profile picture">
+            <p id="request-result">{{ 'develop.request-result' | translate }}</p>
+        </div>
+    </div>
+</div>
