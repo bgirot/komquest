@@ -15,7 +15,7 @@ interface Runner {
   template: `
     <div class="card compact-card">
 
-      <h3 class="title">Classement</h3>
+      <h3 class="title">Scouting Semi-Marathon de Liffré</h3>
 
       <p-table 
         [value]="runners"

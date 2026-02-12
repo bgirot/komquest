@@ -28,7 +28,8 @@
     "description": "Prochainement... une application web pour cyclistes et coureurs pour découvrir les segments Strava à proximité, évaluer leur difficulté et planifier les tentatives optimales selon le vent et le potentiel de classement.",
     "github_button": "GitHub",
     "about_button": "À propos",
-    "develop_button": "Développement"
+    "develop_button": "Développement",
+    "liffre_button": "Scouting Semi-Marathon de Liffré"
   },
 
   "about": {
