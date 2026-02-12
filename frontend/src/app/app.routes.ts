@@ -4,6 +4,7 @@ import { About } from './pages/about/about';
 import { Legals } from './pages/legals/legals';
 import { Privacy } from './pages/privacy/privacy';
 import { Develop } from './pages/develop/develop';
+import { Liffre } from './pages/liffre/liffre'
 
 export const routes: Routes = [
     {
@@ -29,5 +30,10 @@ export const routes: Routes = [
     {
         path: 'develop',
         component: Develop
+    },
+
+    {
+        path: 'liffre',
+        component: Liffre
     }
 ];
